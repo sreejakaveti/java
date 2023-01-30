@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class squcub
+{
+public static void main(String[] args)
+{
+Scanner input=new Scanner(System.in);
+float n=input.nextFloat();
+System.out.print("square: "+(n*n));
+System.out.print("cube: "+(n*n*n));
+}
+}
+
+
+OUTPUT:
+0.6
+square: 0.36
+cube: 0.21600002
